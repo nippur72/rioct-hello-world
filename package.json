@@ -1,0 +1,22 @@
+{
+  "name": "rioct-hello-world",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node node_modules/rioct-cli/rioct-cli hello-world.html & node node_modules/webpack/bin/webpack.js index.js --output-filename app.js",
+    "see": "node node_modules/hostr/bin/hostr"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "rioct-cli": "^0.3.0"
+  },
+  "devDependencies": {
+    "hostr": "^2.3.0",
+    "webpack": "^1.13.1"
+  }
+}
